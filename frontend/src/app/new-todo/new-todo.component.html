@@ -1,0 +1,16 @@
+<div class="w-full p-4 border rounded-md">
+  <div class="flex gap-4">
+    <input
+      id="todo-input"
+      class="w-full p-2 border rounded-md"
+      placeholder="Enter Todo"
+    />
+    <button
+      [disabled]="disabled"
+      (click)="createTodo()"
+      class="px-4 py-2 shrink-0 w-fit bg-blue-500 rounded-md text-white disabled:cursor-not-allowed disabled:brightness-75"
+    >
+      Add Todo
+    </button>
+  </div>
+</div>
