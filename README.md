@@ -1,0 +1,1 @@
+Simple todo app built with Angular + Python. The backend is a single Python AWS Lambda that reads and writes to an AWS DynamoDB table. The frontend is an Angular app that, demonstrates core concepts like Components, Services, and Pipes. 
